@@ -1,0 +1,55 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Nopcommerce Login Test",
+        "description": "",
+        "id": "nopcommerce-login;nopcommerce-login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on login page and verify the Login page Title",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User Enter Username and Password and click on Login",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User is on Homepage of User",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Nopcommerce Login",
+    "description": "",
+    "id": "nopcommerce-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature"
+  }
+]
